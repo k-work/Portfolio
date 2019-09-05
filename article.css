@@ -502,7 +502,7 @@ transform: scale(1);
 
 footer{
     /* background-color:#c1e4e9; */
-    height:40px;
+    height:80px;
     text-align: center;
     display:flex;
     letter-spacing: 1.0px;
@@ -529,4 +529,7 @@ footer{
 
 #WTL-color:active{
     color:#17a2b8;
+}
+.fav_a{
+    color:#455765;
 }
