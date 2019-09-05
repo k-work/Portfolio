@@ -2,11 +2,11 @@
     position:relative;
 }
 html, body{
-    width:96%;
+    width:100%;
     height:100%;
     margin:0 auto;
     padding:0;
-    background-color:#c1e4e9;
+    background-color:white;
 
     color:#595857;
     font-family: 'Noto Sans TC', sans-serif , 'Cormorant Garamond',Helvetica, 'Roboto', Arial ;
@@ -53,7 +53,7 @@ a:hover{
 
 .section-radius{
     background-color:#F3F3F2;
-    border-radius: 6px;
+    /* border-radius: 6px; */
 
     margin:20px auto;
     padding:0px 20px 20px 20px;
@@ -88,14 +88,18 @@ header{
     z-index:1029; 
 }
 .navbar{
-    background-color:#f8fbf8!important;
+    background-color:white;!important;
     padding:3px 16px 3px 16px;
-    opacity:0.9;
+ 
+
+ 
+
     margin:0;
 }
 
+
 .nav-item{
-    font-size:18px!important;
+    font-size:16px!important;
     text-align: center;
     border-radius: 2px;
 }
@@ -143,6 +147,7 @@ header{
 }
 
 
+
 /* ==================== LANDING ==================== */
 /* ==================== LANDING ==================== */
 /* ==================== LANDING ==================== */
@@ -188,10 +193,32 @@ header{
 /* ==================== WORK ==================== */
 /* ==================== WORK ==================== */
 /* ==================== WORK ==================== */
-.thumbnail_pic{
+.carousel .carousel-item {
+    height: 100%;
+
+  }
+  
+.carousel .carousel-item img {
+    min-height: 600px;
+    max-height: 600px;
+    object-fit: cover;
+  }
+
+
+.thumbnail_pic_80{
+    width:80%;
  
-    margin:20px auto;
+    margin: auto;
 }
+
+.thumbnail_pic_60{
+    width:60%;
+}
+
+.thumbnail_pic_40{
+    width:40%;
+}
+
 
 .role-tool{
     font-size:12px;
@@ -204,21 +231,34 @@ header{
 }
 
 .article{
-    padding:20px;
+    padding:10px;
+    /* text-align: left; */
+    
 }
+
 
 .article-subtitle{
     font-size:20px;
-    font-weight:400;
-    line-height: 2.0;
+    font-weight:300;
+    line-height: 3.0;
     color:#17a2b8;
+    text-align:left;
+
+
+}
+
+
+.article-text{
+text-align:left;
+line-height: 2.0;
+font-size:16px;
 
 }
 
 .s02-WORK{
     width:100%;
     position:relative;
-    background-color:#F3F3F2;
+    background-color:white;
 }
 
 
@@ -271,7 +311,7 @@ header{
 }
 
 .container01-fulid{
-    width:100%;
+    width:80%;
     margin-top:50px;
 }
 
@@ -296,6 +336,7 @@ header{
 
 
 .collection{
+    width:80%;
     padding:0;
 }
 
@@ -461,6 +502,7 @@ transform: scale(1);
 
 
 footer{
+    background-color:#c1e4e9;
     height:40px;
     text-align: center;
     display:flex;
