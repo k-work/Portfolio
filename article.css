@@ -154,7 +154,7 @@ header{
 
 .s01-INTRO{
     background-color:#c1e4e9; /*白藍*/
-    width:100%;
+    width:80%;
     height:400px;
     position:relative;
     margin:0 auto;
@@ -182,7 +182,7 @@ header{
 
 
 .intro{
-    width:80%;
+    width:100%;
     text-align: left;
     margin:auto;
     /* height:70%; */
@@ -460,16 +460,19 @@ transform: scale(1);
 
 
 .s04-CONTACT{
-    background-color: #F3F3F2;
-    /* height:60%; */
+    background-color: white;
+    /* padding:0px; */
+    margin:0;
+    /* height:50%; */
     /* text-align: center; */
 }
 
 
 .c1{
     font-size:16px;
-    height:40px;
+    height:100px;
     text-align: center;
+    padding-top:40px;
 }
 
 .c2{
@@ -479,8 +482,9 @@ transform: scale(1);
 
 }
 .c3{
+    height:60px;
     font-size:14px;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
     text-align: center;
 }
 
@@ -497,7 +501,7 @@ transform: scale(1);
 
 
 footer{
-    background-color:#c1e4e9;
+    /* background-color:#c1e4e9; */
     height:40px;
     text-align: center;
     display:flex;
@@ -519,8 +523,8 @@ footer{
 }
 
 #WTL-color:hover{
-    color:#F3F3F2;
-    font-weight:bold;
+    color:grey;
+    /* font-weight:bold; */
 }
 
 #WTL-color:active{

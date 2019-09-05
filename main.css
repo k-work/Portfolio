@@ -57,6 +57,7 @@ a:hover{
 }  */
 
 .section-radius{
+    width:100%;
     background-color:white;
     /* border-radius: 6px; */
 
@@ -158,8 +159,8 @@ header{
 
 .s01-INTRO{
     background-color:#c1e4e9; /*白藍*/
-    width:100%;
-    height:300px;
+    width:80%;
+    height:400px;
     position:relative;
     margin:0 auto;
 }
@@ -168,7 +169,7 @@ header{
     color:#00a3af;
     width:100%;
 
-    text-align: center;
+    text-align: left;
 
     font-family: 'Noto Sans TC', Arial, Helvetica, sans-serif;
     font-size:16px;
@@ -384,12 +385,12 @@ transform: scale(1);
 
 
 .s03-ABOUT{
-    text-align: center;
+    text-align: left;
 }
 .container02-fluid{
-    width:90%;
+    width:80%;
     margin:0px auto 20px auto;
-    font-size:16px;
+    font-size:14px;
     line-height:34px;
     padding:0px 20px 20px 20px;
 }
@@ -451,7 +452,9 @@ transform: scale(1);
 
 
 .s04-CONTACT{
-    background-color: #F3F3F2;
+    background-color: white;
+    /* padding:0px; */
+    margin:0;
     /* height:50%; */
     /* text-align: center; */
 }
@@ -459,8 +462,9 @@ transform: scale(1);
 
 .c1{
     font-size:16px;
-    height:40px;
+    height:100px;
     text-align: center;
+    padding-top:40px;
 }
 
 .c2{
@@ -470,8 +474,9 @@ transform: scale(1);
 
 }
 .c3{
+    height:60px;
     font-size:14px;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
     text-align: center;
 }
 
@@ -488,27 +493,25 @@ transform: scale(1);
 
 
 footer{
-    height:60px;
+    /* background-color:#c1e4e9; */
+    height:40px;
     text-align: center;
     display:flex;
     letter-spacing: 1.0px;
-  
 }
 
 
 .copyright{
     color:#455765;
-    font-size:16px;
-    line-height: 20px;
+    font-size:14px;
     vertical-align: center;
     margin:auto;
 }
 
 #WTL-color{
     color:#00a3af;
-    font-size:16px;
+    font-size:14px;
     text-decoration: underline;
-    vertical-align: center;
 }
 
 #WTL-color:hover{
