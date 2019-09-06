@@ -1,6 +1,6 @@
 *{
     position:relative;
-    
+ 
 }
 html, body{
     width:100%;
@@ -17,7 +17,9 @@ html, body{
 
     -ms-text-size-adjust: 100%; 
     -webkit-text-size-adjust: 100%; 
+
 }
+
 
 /* 透明漸變 - color - transparent */
 
@@ -29,6 +31,7 @@ html, body{
 
 
 .wrapper{
+
     width:100%;
     /* height:100%; */
 
@@ -46,6 +49,7 @@ li{
 }
 
 a:hover{
+    transition: all 0.2s ease;
     text-decoration: none;
 
 }
@@ -160,9 +164,10 @@ header{
 .s01-INTRO{
     background-color:#c1e4e9; /*白藍*/
     width:80%;
-    height:400px;
+    height:500px;
     position:relative;
     margin:0 auto;
+
 }
 .landing{
     /* background-color:#ebf6f7; */
@@ -449,6 +454,27 @@ transition: transform 500ms ease-in-out;
 }
 
 
+.intro-text{
+    margin:0 auto;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+.cv_buttom{
+    border:solid 4px ;
+    padding:10px 10px;
+    border-color:#F3F3F2;
+    
+    text-align: center;
+    margin:auto;
+
+
+}
+.social{
+    padding:40px;
+    text-align: center;
+}
 /* ==================== CONTACT ==================== */
 /* ==================== CONTACT ==================== */
 /* ==================== CONTACT ==================== */
@@ -499,7 +525,7 @@ footer{
     /* background-color:#c1e4e9; */
     height:80px;
     text-align: center;
-    display:flex;
+    /* display:flex; */
     letter-spacing: 1.0px;
 }
 
@@ -509,7 +535,9 @@ footer{
     font-size:14px;
     vertical-align: center;
     margin:auto;
+    padding:10px;
 }
+
 
 #WTL-color{
     color:#00a3af;
@@ -529,3 +557,9 @@ footer{
 .fav_a{
     color:#455765;
 }
+
+/* @media screen and (max-width:600px){
+    a.hideme{
+        display: none;
+    }
+} */

@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146520145-1"></script>
     <script>
@@ -10,6 +12,7 @@
 
       gtag('config', 'UA-146520145-1');
     </script>
+  
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -57,22 +60,26 @@
         <!-- start landing -->
         <section class="s01-INTRO clearfix section-radius">
           
-          <div class="landing clearfix ">
-            <div class="intro clearfix">Hi, I'm Wan-Ting Liao, a designer specialized in User Interface (UI) design.<br><br>I enjoy doing front-end web & mobile UI design.<br><br>Also, I'm a music composer who enjoys making digital music.    
-            <br>
-            <br>
-            <a download href="document/Wan-Ting Liao CV.pdf"><i class="fas fa-download "></i> Download 1 page CV</a>
-            <br>
-           
-            <br>
-            <a href="https://www.linkedin.com/in/kimmliao/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://soundcloud.com/kimm-liao" target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.instagram.com/liaophotos/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-          </div>
-          </div>
-
+          <div class="landing clearfix">
+         
+            <div class="intro clearfix">
+              <p class="intro-text item" data-aos="fade-up">Hi, I'm Wan-Ting Liao, a designer specialized in User Interface (UI) design.<br><br>I enjoy doing front-end web & mobile UI design.<br><br>Also, I'm a music composer who enjoys making digital music.    
+              </p>
+             
+                <buttom class="row justify-content-center"><a download href="document/Wan-Ting Liao CV.pdf" class="cv_buttom"><i class="fas fa-download "></i> Download 1 page CV</a></buttom>
+                
           
-     
+            
+
+                <div class="item social" data-aos="zoom-out">
+                  <a href="https://www.linkedin.com/in/kimmliao/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="https://soundcloud.com/kimm-liao" target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="https://www.instagram.com/liaophotos/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            
+            </div>
+
+          </div>
 
         </section>
         <!-- end   landing -->
@@ -92,7 +99,7 @@
 
           <div class="container02-fluid">
 
-            <div class="ul row justify-content-around">
+            <div class="ul row justify-content-around item" data-aos="fade-up">
                 <div class="li col-12 col-sm-4 col-md-6 col-lg-6 col-xl-6" ><h5>Skills</h5>UI Design<br>Web Design<br>Graphic Design<br>Video Editing<br>Digital Music Production</div>
                 <div class="li col-12 col-sm-4 col-md-6 col-lg-6 col-xl-6"><h5>Tools</h5>Sketch / InVision<br>Adobe illustrator / Photoshop<br>HTML / CSS / JavaScript<br>Google Analytics<br>Bootstrap<br>Github<br>MAX / MSP / Jitter<br>Final Cut Pro<br>Adobe Audition<br>Logic Pro X / Cubase</div>
             </div>
@@ -109,14 +116,16 @@
 <!-- start FOOTER -->
 <footer>
     <div class="copyright align-middle">
-    Copyright&nbsp;©&nbsp;Design & Hand-coded by <a id="WTL-color" href="index.html">Wan-Ting Liao</a> 2019 &nbsp;&nbsp;&nbsp;&nbsp;
+    Copyright&nbsp;©&nbsp;Design & Hand-coded by <a id="WTL-color" href="index.html">Wan-Ting Liao</a> 2019
+    </div>
 
-    <a href="https://github.com" target="_blank" class="fav_a"><i class="fab fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/kimmliao/" target="_blank" class="fav_a"><i class="fab fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://soundcloud.com/kimm-liao" target="_blank" class="fav_a"><i class="fab fa-soundcloud fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.instagram.com/liaophotos/" target="_blank" class="fav_a"><i class="fab fa-instagram fa-lg"></i></a>
-  
-  </div>
+    <div class="copyright align-middle">
+    <a href="https://github.com" target="_blank" class="fav_a hideme"><i class="fab fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/kimmliao/" target="_blank" class="fav_a hideme"><i class="fab fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://soundcloud.com/kimm-liao" target="_blank" class="fav_a hideme"><i class="fab fa-soundcloud fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/liaophotos/" target="_blank" class="fav_a hideme"><i class="fab fa-instagram fa-lg"></i></a>
+    </div>
+
 </footer>
 <!-- end footer -->
 
@@ -125,7 +134,15 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </div>   
+   
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 1200,
+          });
+        </script>
+   
+      </div>   
 </body>
 
 </html>

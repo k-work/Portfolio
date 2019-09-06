@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146520145-1"></script>
         <script>
@@ -59,7 +61,7 @@
         <section class="s01-INTRO clearfix section-radius">
           
             <div class="landing clearfix ">
-              <div class="intro clearfix">Hi, I'm Wan-Ting Liao, a designer specialized in User Interface (UI) design.<br><br>I enjoy doing front-end web & mobile UI design.<br><br>Also, I'm a music composer who enjoys making digital music.
+              <div class="intro clearfix item" data-aos="fade-up">Hi, I'm Wan-Ting Liao, a designer specialized in User Interface (UI) design.<br><br>I enjoy doing front-end web & mobile UI design.<br><br>Also, I'm a music composer who enjoys making digital music.
               </div>
             </div>
   
@@ -208,15 +210,17 @@
 
 <!-- start FOOTER -->
 <footer>
-        <div class="copyright align-middle">
-        Copyright&nbsp;©&nbsp;Design & Hand-coded by <a id="WTL-color" href="index.html">Wan-Ting Liao</a> 2019 &nbsp;&nbsp;&nbsp;&nbsp;
-    
-        <a href="https://github.com" target="_blank" class="fav_a"><i class="fab fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/kimmliao/" target="_blank" class="fav_a"><i class="fab fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://soundcloud.com/kimm-liao" target="_blank" class="fav_a"><i class="fab fa-soundcloud fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/liaophotos/" target="_blank" class="fav_a"><i class="fab fa-instagram fa-lg"></i></a>
-      
-      </div>
+    <div class="copyright align-middle">
+    Copyright&nbsp;©&nbsp;Design & Hand-coded by <a id="WTL-color" href="index.html">Wan-Ting Liao</a> 2019
+    </div>
+
+    <div class="copyright align-middle">
+    <a href="https://github.com" target="_blank" class="fav_a hideme"><i class="fab fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/kimmliao/" target="_blank" class="fav_a hideme"><i class="fab fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://soundcloud.com/kimm-liao" target="_blank" class="fav_a hideme"><i class="fab fa-soundcloud fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/liaophotos/" target="_blank" class="fav_a hideme"><i class="fab fa-instagram fa-lg"></i></a>
+    </div>
+
 </footer>
 <!-- end footer -->
 
@@ -254,7 +258,12 @@
 </script>
         
 
-
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 2400,
+          });
+        </script>
 
 
 <!-- <script>

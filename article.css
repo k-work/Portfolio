@@ -504,7 +504,7 @@ footer{
     /* background-color:#c1e4e9; */
     height:80px;
     text-align: center;
-    display:flex;
+    /* display:flex; */
     letter-spacing: 1.0px;
 }
 
@@ -514,7 +514,9 @@ footer{
     font-size:14px;
     vertical-align: center;
     margin:auto;
+    padding:10px;
 }
+
 
 #WTL-color{
     color:#00a3af;
@@ -523,13 +525,20 @@ footer{
 }
 
 #WTL-color:hover{
-    color:grey;
+    color:#F3F3F2;
     /* font-weight:bold; */
 }
 
 #WTL-color:active{
     color:#17a2b8;
 }
+
 .fav_a{
     color:#455765;
 }
+
+/* @media screen and (max-width:600px){
+    a.hideme{
+        display: none;
+    }
+} */
