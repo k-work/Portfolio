@@ -213,11 +213,15 @@ header{
 .thumbnail_pic_40{
     width:40%;
 }
-
+.role-frame{
+    display: flex;
+}
 
 .role-tool{
     font-size:12px;
+    line-height: 2.0;
     text-align:center;
+    margin:0 auto;
 
 }
 .article-title{
@@ -234,10 +238,10 @@ header{
 
 .article-subtitle{
     font-size:20px;
-    font-weight:300;
+    font-weight:400;
     line-height: 3.0;
     color:#17a2b8;
-    text-align:left;
+    text-align:center;
 
 
 }
@@ -331,7 +335,7 @@ font-size:16px;
 
 
 .collection{
-    width:80%;
+    width:90%;
     padding:0;
 }
 
